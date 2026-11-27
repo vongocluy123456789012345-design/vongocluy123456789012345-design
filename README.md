@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/K%E1%BA%BF%20to%C3%A1n-Thu%E1%BA%BF%20%26%20H%C3%B3a%20%C4%91%C6%A1n-10b981?style=for-the-badge&logo=bookstack&logoColor=white" alt="Kế toán">
-  <img src="https://img.shields.io/badge/Google%20Workspace-T%E1%BB%B1%20%C4%91%E1%BB%99ng%20ho%C3%A1-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Workspace">
-  <img src="https://img.shields.io/badge/Gemini-AI%20Assistant-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="assets/badges/ketoan.svg" alt="Kế toán: Thuế & Hóa đơn">
+  <img src="assets/badges/workspace.svg" alt="Google Workspace: Tự động hoá">
+  <img src="assets/badges/gemini.svg" alt="Gemini: AI Assistant">
 </p>
 
 ---
@@ -37,7 +37,7 @@ const ngocLuy = {
       <p>
         <img src="https://img.shields.io/badge/Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white">
         <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
-        <img src="https://img.shields.io/badge/Dark%20mode-111827?style=flat-square">
+        <img src="assets/badges/darkmode.svg" alt="Dark mode">
       </p>
     </td>
     <td width="50%" valign="top">
@@ -59,7 +59,7 @@ const ngocLuy = {
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
   <img src="https://img.shields.io/badge/Apps%20Script-4285F4?style=for-the-badge&logo=googleappsscript&logoColor=white">
-  <img src="https://img.shields.io/badge/Google%20Drive-1FA463?style=for-the-badge&logo=googledrive&logoColor=white">
+  <img src="assets/badges/drive.svg" alt="Google Drive">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
   <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white">
