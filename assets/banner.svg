@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1a1240"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#60a5fa;#a855f7;#ec4899;#34d399" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#60a5fa">
+        <animate attributeName="stop-color" values="#60a5fa;#a855f7;#ec4899;#34d399;#60a5fa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#34d399;#60a5fa;#a855f7;#ec4899" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow1"><stop offset="0" stop-color="#a855f7" stop-opacity=".55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop offset="0" stop-color="#22d3ee" stop-opacity=".45"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow3"><stop offset="0" stop-color="#ec4899" stop-opacity=".4"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+    <style>
+      .t1{font:800 64px 'Segoe UI',Arial,sans-serif;letter-spacing:-1px}
+      .t2{font:500 22px 'Segoe UI',Arial,sans-serif;fill:#c7d2fe}
+      .chip{font:600 15px 'Segoe UI',Arial,sans-serif;fill:#e0e7ff}
+      .fade{opacity:0;animation:in 1s ease forwards}
+      .d1{animation-delay:.2s}.d2{animation-delay:.6s}.d3{animation-delay:1s}
+      @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+      .float{animation:fl 6s ease-in-out infinite}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+      .caret{animation:bl 1s steps(1) infinite}
+      @keyframes bl{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <circle cx="1020" cy="60" r="220" fill="url(#glow1)">
+    <animate attributeName="cx" values="1020;960;1020" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="300" r="200" fill="url(#glow2)">
+    <animate attributeName="cy" values="300;260;300" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="330" r="160" fill="url(#glow3)">
+    <animate attributeName="r" values="160;190;160" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Sparkles -->
+  <g fill="#ffffff">
+    <circle cx="880" cy="90" r="2"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="210" r="2.5"><animate attributeName="opacity" values="1;0;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="60" r="1.8"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="270" r="2"><animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="40" r="1.5"><animate attributeName="opacity" values="1;0;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="fade d1">
+    <text x="70" y="128" class="t2">👋 Xin chào, mình là</text>
+  </g>
+  <g class="fade d2">
+    <text x="66" y="200" class="t1" fill="url(#txt)">Ngọc Luy</text>
+  </g>
+  <g class="fade d3">
+    <text x="70" y="244" class="t2">Kế toán × Tự động hoá × AI — biến Google Workspace thành siêu trợ lý<tspan class="caret" fill="#a5b4fc"> ▍</tspan></text>
+  </g>
+
+  <!-- Floating app badges -->
+  <g class="float">
+    <g transform="translate(870 120)">
+      <rect width="250" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="28" class="chip">📊 Sheets · 📁 Drive · ✉️ Gmail</text>
+    </g>
+  </g>
+  <g class="float" style="animation-delay:1.5s">
+    <g transform="translate(900 180)">
+      <rect width="220" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="28" class="chip">✨ Gemini · ▶️ YouTube</text>
+    </g>
+  </g>
+  <g class="float" style="animation-delay:3s">
+    <g transform="translate(930 240)">
+      <rect width="190" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="28" class="chip">🗺️ Maps · 🧾 Thuế</text>
+    </g>
+  </g>
+</svg>
