@@ -80,29 +80,29 @@
     <text x="70" y="128" class="t2">👋 Xin chào, mình là</text>
   </g>
   <g class="fade d2">
-    <text x="66" y="200" class="t1" fill="url(#txt)">Ngọc Luy</text>
+    <text x="66" y="200" class="t1" fill="url(#txt)">Võ Ngọc Lũy</text>
   </g>
   <g class="fade d3">
-    <text x="70" y="244" class="t2">Kế toán × Tự động hoá × AI — biến Google Workspace thành siêu trợ lý<tspan class="caret" fill="#a5b4fc"> ▍</tspan></text>
+    <text x="70" y="244" class="t2">Kế toán viên &amp; người mê AI — biến việc lặp lại thành công cụ<tspan class="caret" fill="#a5b4fc"> ▍</tspan></text>
   </g>
 
   <!-- Floating app badges -->
   <g class="float">
     <g transform="translate(870 120)">
       <rect width="250" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
-      <text x="22" y="28" class="chip">📊 Sheets · 📁 Drive · ✉️ Gmail</text>
+      <text x="22" y="28" class="chip">🧾 Kế toán dịch vụ · 6 công ty</text>
     </g>
   </g>
   <g class="float" style="animation-delay:1.5s">
     <g transform="translate(900 180)">
       <rect width="220" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
-      <text x="22" y="28" class="chip">✨ Gemini · ▶️ YouTube</text>
+      <text x="22" y="28" class="chip">🎓 VB2 HV Tài chính</text>
     </g>
   </g>
   <g class="float" style="animation-delay:3s">
     <g transform="translate(930 240)">
       <rect width="190" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
-      <text x="22" y="28" class="chip">🗺️ Maps · 🧾 Thuế</text>
+      <text x="22" y="28" class="chip">🤖 Ngocluytool</text>
     </g>
   </g>
 
