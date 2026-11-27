@@ -88,9 +88,9 @@
 
   <!-- Floating app badges -->
   <g class="float">
-    <g transform="translate(870 120)">
-      <rect width="250" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
-      <text x="22" y="28" class="chip">🧾 Kế toán dịch vụ · 6 công ty</text>
+    <g transform="translate(920 120)">
+      <rect width="200" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
+      <text x="22" y="28" class="chip">🧾 Kế toán dịch vụ</text>
     </g>
   </g>
   <g class="float" style="animation-delay:1.5s">

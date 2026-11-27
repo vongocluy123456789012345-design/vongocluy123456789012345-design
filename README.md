@@ -65,6 +65,25 @@
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
+## 🎨 Demo giao diện
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚚 <a href="https://raw.githack.com/vongocluy123456789012345-design/vongocluy123456789012345-design/main/demo/index.html#logistics">Logistics — xe container chạy theo cuộn</a></h3>
+      <p>Xe đầu kéo vẽ nét rồi tô màu, lăn bánh khi cuộn trang, đồng hồ km chạy Hà Nội → TP.HCM, chữ khổng lồ tô màu theo cuộn.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧾 <a href="https://raw.githack.com/vongocluy123456789012345-design/vongocluy123456789012345-design/main/demo/index.html#ke-toan">Kế toán AI — sổ sách tự chạy</a></h3>
+      <p>Landing page dịch vụ kế toán: hoá đơn vẽ nét, số liệu đếm, dịch vụ, quy trình 4 bước và bảng giá, chạy mượt trên điện thoại.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><i>Một website, 2 giao diện chuyển qua lại bằng thanh tab · HTML/CSS/JS một file · <a href="demo/index.html">xem mã nguồn</a></i></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
 ## 🛠️ Nghiệp vụ &amp; công cụ
 
 **Nghiệp vụ kế toán:** nhập liệu chứng từ · hoá đơn mua vào – bán ra · hoá đơn điện tử · kê khai thuế theo quý · tờ khai hải quan · báo tăng giảm BHXH · lập báo cáo quý · đối chiếu công nợ
