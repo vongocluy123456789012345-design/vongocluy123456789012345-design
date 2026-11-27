@@ -13,7 +13,7 @@
 ## 🚀 Về mình
 
 <p align="center">
-  <img src="assets/about.svg" alt="Kế toán dịch vụ từ 2022, đã phụ trách sổ sách cho 6 công ty; đang học Văn bằng 2 Kế toán tại Học viện Tài chính; mê AI, tự làm ứng dụng và website; mục tiêu xây cộng đồng cùng dùng công nghệ" width="100%">
+  <img src="assets/about.svg" alt="Kế toán dịch vụ; đang học Văn bằng 2 Kế toán tại Học viện Tài chính; mê AI, tự làm ứng dụng và website; mục tiêu xây cộng đồng cùng dùng công nghệ; cùng nhau phát triển, có ý tưởng hay cứ góp ý" width="100%">
 </p>
 
 <div align="center">
