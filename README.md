@@ -70,11 +70,11 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚚 <a href="https://raw.githack.com/vongocluy123456789012345-design/vongocluy123456789012345-design/main/demo/index.html#logistics">Logistics — xe container chạy theo cuộn</a></h3>
+      <h3>🚚 <a href="https://vongocluy123456789012345-design.github.io/vongocluy123456789012345-design/demo/#logistics">Logistics — xe container chạy theo cuộn</a></h3>
       <p>Xe đầu kéo vẽ nét rồi tô màu, lăn bánh khi cuộn trang, đồng hồ km chạy Hà Nội → TP.HCM, chữ khổng lồ tô màu theo cuộn.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧾 <a href="https://raw.githack.com/vongocluy123456789012345-design/vongocluy123456789012345-design/main/demo/index.html#ke-toan">Kế toán AI — sổ sách tự chạy</a></h3>
+      <h3>🧾 <a href="https://vongocluy123456789012345-design.github.io/vongocluy123456789012345-design/demo/#ke-toan">Kế toán AI — sổ sách tự chạy</a></h3>
       <p>Landing page dịch vụ kế toán: hoá đơn vẽ nét, số liệu đếm, dịch vụ, quy trình 4 bước và bảng giá, chạy mượt trên điện thoại.</p>
     </td>
   </tr>
