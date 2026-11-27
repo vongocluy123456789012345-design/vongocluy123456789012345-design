@@ -30,6 +30,12 @@
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3>📒 <a href="https://so-ke-toan-viet.vongocluy12345678901.chatgpt.site/">Sổ kế toán Việt</a> <sup>🆕 mới</sup></h3>
+      <p>Không gian sổ sách kế toán trên web: tạo bộ sổ cho <b>hộ kinh doanh</b> hoặc <b>kế toán dịch vụ</b>, đăng nhập để mở bộ sổ của mình hay bộ sổ đồng nghiệp đã chia sẻ, phân quyền người dùng; dữ liệu lưu được ngay trên máy và xuất bản sao.</p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🛍️ <a href="https://ngocluytool.web.app/">Ngocluytool</a></h3>
       <p>Kho ứng dụng AI &amp; công cụ làm video do mình phát triển: Video AI, Voice AI, Max AI, AI Workspace, GCloud Hub, SmicalTool… Thanh toán QR, hỗ trợ qua Zalo.</p>
