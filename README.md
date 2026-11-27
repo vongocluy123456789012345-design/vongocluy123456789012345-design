@@ -8,24 +8,15 @@
   <img src="assets/badges/gemini.svg" alt="Gemini: AI Assistant">
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 🚀 Về mình
 
-```js
-const ngocLuy = {
-  vaiTro:     "Kế toán ✦ Người xây công cụ tự động hoá",
-  dangLam:    ["AI Workspace Manager", "Phần mềm kế toán & hoá đơn"],
-  yeuThich:   ["Google Sheets", "Apps Script", "Python", "AI"],
-  phuongCham: "Việc lặp lại 2 lần → viết công cụ cho máy làm 🤖",
-};
-```
+<p align="center">
+  <img src="assets/about.svg" alt="Kế toán làm việc với hoá đơn, thuế, sổ sách; xây công cụ tự động trên Google Sheets; đưa Gemini AI vào công việc" width="100%">
+</p>
 
-- 🧾 Ngày ngày làm việc với **hoá đơn, tờ khai thuế, sổ sách**
-- ⚙️ Biến các thao tác thủ công thành **công cụ tự động** chạy trên Google Sheets
-- ✨ Đưa **Gemini AI** vào công việc: đọc hoá đơn, tóm tắt email, phân tích số liệu
-
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 🌟 Dự án nổi bật
 
@@ -52,7 +43,7 @@ const ngocLuy = {
   </tr>
 </table>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 🛠️ Công cụ mình dùng
 
@@ -72,7 +63,7 @@ const ngocLuy = {
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white">
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 📈 Hành trình
 
@@ -83,7 +74,7 @@ const ngocLuy = {
 | 🔄 Đang làm | Quản lý nhiều công ty / MST, nhắc hạn tờ khai |
 | 🎯 Sắp tới | Tự động đối chiếu sao kê ngân hàng với sổ sách |
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vongocluy123456789012345-design&label=L%C6%B0%E1%BB%A3t%20gh%C3%A9%20th%C4%83m&color=8b5cf6&style=for-the-badge" alt="Lượt ghé thăm">

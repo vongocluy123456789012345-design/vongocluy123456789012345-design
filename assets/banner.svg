@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
@@ -21,6 +21,25 @@
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
     </pattern>
+    <linearGradient id="flame" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff7ae"/>
+      <stop offset=".35" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </linearGradient>
+    <g id="rocket">
+      <path fill="url(#flame)" d="M-30 -7 Q-54 0 -30 7 Z">
+        <animate attributeName="d" dur=".22s" repeatCount="indefinite"
+          values="M-30 -7 Q-54 0 -30 7 Z;M-30 -6 Q-70 0 -30 6 Z;M-30 -7 Q-50 0 -30 7 Z;M-30 -7 Q-54 0 -30 7 Z"/>
+      </path>
+      <path d="M-20 -9 L-33 -22 L-10 -10 Z" fill="#ef4444"/>
+      <path d="M-20 9 L-33 22 L-10 10 Z" fill="#ef4444"/>
+      <path d="M-29 -10 L14 -10 Q34 -10 42 0 Q34 10 14 10 L-29 10 Q-33 0 -29 -10 Z" fill="#f1f5f9"/>
+      <path d="M14 -10 Q34 -10 42 0 Q34 10 14 10 Z" fill="#ef4444"/>
+      <rect x="-29" y="-10" width="6" height="20" rx="2" fill="#94a3b8"/>
+      <circle cx="1" cy="0" r="5.5" fill="#38bdf8" stroke="#1e3a8a" stroke-width="2"/>
+      <circle cx="-0.5" cy="-1.5" r="1.6" fill="#e0f2fe"/>
+    </g>
+    <path id="flight" d="M -120 300 C 260 300, 420 40, 700 120 S 1050 330, 1340 -60"/>
     <style>
       .t1{font:800 64px 'Segoe UI',Arial,sans-serif;letter-spacing:-1px}
       .t2{font:500 22px 'Segoe UI',Arial,sans-serif;fill:#c7d2fe}
@@ -85,5 +104,19 @@
       <rect width="190" height="44" rx="22" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
       <text x="22" y="28" class="chip">🗺️ Maps · 🧾 Thuế</text>
     </g>
+  </g>
+
+  <!-- Tên lửa bay chéo qua banner, kéo theo vệt sao -->
+  <g>
+    <circle r="6" fill="#fbbf24" opacity=".7"><animateMotion dur="7s" repeatCount="indefinite" begin="-.88s"><mpath xlink:href="#flight"/></animateMotion></circle>
+    <circle r="5" fill="#fb923c" opacity=".55"><animateMotion dur="7s" repeatCount="indefinite" begin="-.80s"><mpath xlink:href="#flight"/></animateMotion></circle>
+    <circle r="4" fill="#f472b6" opacity=".45"><animateMotion dur="7s" repeatCount="indefinite" begin="-.72s"><mpath xlink:href="#flight"/></animateMotion></circle>
+    <circle r="3" fill="#c084fc" opacity=".35"><animateMotion dur="7s" repeatCount="indefinite" begin="-.64s"><mpath xlink:href="#flight"/></animateMotion></circle>
+    <circle r="2.4" fill="#60a5fa" opacity=".28"><animateMotion dur="7s" repeatCount="indefinite" begin="-.56s"><mpath xlink:href="#flight"/></animateMotion></circle>
+    <circle r="2" fill="#fff" opacity=".2"><animateMotion dur="7s" repeatCount="indefinite" begin="-.48s"><mpath xlink:href="#flight"/></animateMotion></circle>
+  </g>
+  <g>
+    <use xlink:href="#rocket"/>
+    <animateMotion dur="7s" repeatCount="indefinite" begin="-1s" rotate="auto"><mpath xlink:href="#flight"/></animateMotion>
   </g>
 </svg>
